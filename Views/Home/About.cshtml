@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+<h2>Calculadora</h2>
+<div>
+    @ViewBag.Mensaje
+    <h4>Suma: @ViewBag.Sumatoria</h4>
+    <h4>resta es: @ViewBag.Restatoria</h4>
+    <h4>Multiplicacion es: @ViewBag.Multitoria</h4>
+    <h4>Divicion es: @ViewBag.Diviciontoria</h4>
+    <hr />
+    @Html.ActionLink("Regresar a la Calculadora", "Calculadora", "Home")
+</div>
